@@ -8,4 +8,5 @@ class AppColors {
   static Color grey800 = Colors.grey[800];
   static Color grey900 = Colors.grey[900];
   static Color lightCyan = Color.fromARGB(255, 32, 211, 234);
+  static Color white70 = Colors.white70;
 }

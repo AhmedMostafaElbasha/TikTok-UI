@@ -16,6 +16,12 @@ class App extends StatelessWidget {
       allowFontScaling: false,
       builder: () {
         return MaterialApp(
+          theme: ThemeData(
+            textTheme: Theme.of(context).textTheme.apply(
+                  bodyColor: AppColors.white,
+                  displayColor: AppColors.white,
+                ),
+          ),
           initialRoute: AppRoutes.home,
           routes: AppRoutes.routes,
           debugShowCheckedModeBanner: false,

@@ -41,4 +41,6 @@ class AppIcons {
     0xe80f,
     fontFamily: AppFamilyFonts.tikTokIcons,
   );
+
+  static IconData add = Icons.add;
 }
